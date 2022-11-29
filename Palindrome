@@ -1,0 +1,7 @@
+let word = "Madam";
+let bag = "";
+for(let a = 0; a < word.length; a++)
+{
+    bag += word[a];
+}
+console.log(bag)
