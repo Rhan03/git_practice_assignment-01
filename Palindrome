@@ -1,7 +1,11 @@
 let word = "Madam";
 let bag = "";
-for(let a = 0; a < word.length; a++)
+for(let a = word.length-1; a >= 0; a--)
 {
     bag += word[a];
 }
-console.log(bag)
+if(bag == word){
+    console.log("Yes");
+}else{
+    console.log("No");
+}
